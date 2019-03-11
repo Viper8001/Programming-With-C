@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("\n size of int %d",sizeof(int));
+printf("\n size of float %d ",sizeof(float));
+printf("\n Sizeof character is %d ",sizeof(char));
+getch();
+}

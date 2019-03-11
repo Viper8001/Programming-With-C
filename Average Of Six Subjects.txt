@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int s1,s2,s3,s4,s5,s6,sum,avg;
+printf("\n Enter 1st no. : ");
+scanf("%d",&s1);
+printf("\n Enter 2nd no. : ");
+scanf("%d",&s2);
+printf("\n Enter 3rd no. : ");
+scanf("%d",&s3);
+printf("\n Enter 4th no. : ");
+scanf("%d",&s4);
+printf("\n Enter 5th no. : ");
+scanf("%d",&s5);
+printf("\n Enter 6th no. : ");
+scanf("%d",&s6);
+sum=s1+s2+s3+s4+s5+s6;
+avg=sum/6;
+if(avg>34 && avg<49)
+printf("\n Third division ");
+if(avg>49 && avg<60)
+printf("\n 2nd division ");
+if(avg>60 && avg<75)
+printf("\n First division ");
+if(s1<40 || s2<34 || s3<34 || s4<34 || s5<34 || s6<34)
+printf("\n FAIL");
+return 0;
+}

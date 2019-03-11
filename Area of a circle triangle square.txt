@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+//Print the area of a circle
+float radious,areacir,areatr,areasq,s,s1,s2,s3,side;
+printf("\n\n Enter radious of a circle ");
+scanf("%f",&radious);
+areacir=2*3.141*radious; // 3.141 is the value of pie //
+printf("\n\n The area of circle is %f",areacir);
+printf("\n\n Enter the value of three sides of a trinange");
+printf("\n\n Enter side1= ");
+scanf("%f",&s1);
+printf("\n\n Enter side 2 ");
+scanf("%f",&s2);
+printf("\n\n Enter side 3 ");
+scanf("%f",&s3);
+s=0.5*(s1+s2+s3);
+printf("\n value of s is %f ",s);
+areatr= sqrt(s * (s - s1) * (s - s2) * (s - s3));
+printf("\n\nArea of a triangle = %f ",areatr);
+printf("\n\nEnter the side for the square:");
+scanf("%f",&side);
+areasq=side*side;
+printf("\n\n The area of a square is %f ",areasq);
+getch();
+}

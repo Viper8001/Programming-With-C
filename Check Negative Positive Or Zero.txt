@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a;
+printf("\n Enter first number ");
+scanf("%d",&a);
+if(a==0)
+printf("\n The number is zero ");
+else
+{
+if(a>0)
+printf("\n The number is positive");
+else
+printf("\n The number is negative");
+}
+getche();
+return 0;
+}

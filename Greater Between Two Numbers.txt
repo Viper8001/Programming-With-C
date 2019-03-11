@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+printf("\n Enter 1st number :");
+scanf("%d"
+,&a);
+printf("\n Enter 2nd number :");
+scanf("%d"
+,&b);
+if(a>b)
+printf("\nthe largest number is %d "
+,a);
+if(b>a)
+printf("\nthe largest number is %d "
+,b);
+if(a==b)
+printf("\nthe Two numbewrs are equal ");
+return 0;
+}
